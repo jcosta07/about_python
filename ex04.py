@@ -1,0 +1,10 @@
+ #Crie um programa que leia algo pelo quadro e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre
+a=input("Insert something: ")
+print("It's a number?", a.isnumeric())
+print("It's a word?", a.isalpha())
+print("It's only space?", a.isspace())
+print("It's alphanumeric", a.isalnum())
+print("It's upper?", a.isupper())
+print("It's lower?", a.islower())
+print("It's capitalized?", a.istitle())
+print("It's another type?", a.isprintable())
